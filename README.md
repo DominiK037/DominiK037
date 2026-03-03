@@ -16,13 +16,13 @@
 
 ## `$ whoami` 
 
-I'm a **Backend Engineer** who believes that understanding the **machine underneath** is the key to writing naturally efficient and scalable systems. While most developers operate at the abstraction layer, I enjoy diving into **kernel memory management**, **socket internals**, **CPU mechanics**, **process management**, **storage management** to understand *why* code performs the way it does.
+I'm a **Backend Engineer** who believes that understanding the **machine underneath** is the key to writing naturally efficient and scalable systems. I enjoy diving into **kernel memory management**, **socket internals**, **CPU mechanics**, **process management**, **storage management** to understand *why* code performs the way it does.
 
-This isn't academic curiosity, it's practical. When you know how the OS schedules threads, how TCP actually manages buffers, or how memory pages are swapped, you write better code. You make better architecture decisions. You debug faster.
+This isn't academic curiosity, it's practical. When you know how the Kernel handles process, how sockets actually work on ports, or how OS Page cache works and ways around the page cache to optimise your application, you write better code. You make better architecture decisions. You debug faster.
 
-> **Philosophy:** Get the bigger context first, then dive deep and execute efficiently.
+> Get the bigger context first, then dive deep and execute efficiently.
 
-Currently at [**BytePhase Technologies Pvt Ltd.**](https://bytephase.com), building CRM solutions for Computer Repair Shops with **2.9 years** of shipping production systems.
+Currently at [**BytePhase Technologies Pvt Ltd.**](https://bytephase.com), building CRM solutions for Computer Repair Shops with **3 Years** of shipping production systems.
 
 ---
 
@@ -31,15 +31,8 @@ Currently at [**BytePhase Technologies Pvt Ltd.**](https://bytephase.com), build
 ```yaml
 current_role:
   company: "BytePhase Technologies Pvt Ltd."
-  position: "Software Engineer"
-  duration: "2.9 YOE"
-  
-key_achievements:
-  - impact: "Built GDPR Compliance System for European Market"
-    result: "30-50 early trial bookings, enabled EU expansion"
-    
-  - impact: "Architected & Collabrated scalable CRM backend for repair shops"
-    focus: ["API design", "Data consistency", "Event-driven systems"]
+  position: "Backend Engineer"
+  duration: "June 2023 -- Present (Around 3 YOE)"
 
 current_exploration:
   learning: ["Linux Kernel Internals", "Systems Programming"]
@@ -48,9 +41,8 @@ current_exploration:
   
 side_projects:
   - name: "Laminar-db"
-    description: "Bitcask-inspired database implementation"
-    purpose: "Understanding storage engines from first principles"
-    link: "🔗 [Explore Laminar-db](https://github.com/DominiK037/laminar-db)"
+    description: "Key-Value Storage Engine (Bitcask-inspired)"
+    purpose: "Understanding storage engines from scratch to truly optimise the applications"
 ```
 
 ---
@@ -108,31 +100,6 @@ side_projects:
 
 ---
 
-## `$ strace -f /dev/interests`
-
-```c
-// System calls I'm currently tracing...
-
-execve("/learning/linux_kernel", [
-    "memory_management.c",
-    "socket_management.c", 
-    "storage_management.c",
-    "process_management.c",
-    "cpu_internals.c"
-], 0x7fff) = 0
-
-open("/research/why_frameworks_exist", O_RDONLY) = 3
-read(3, "SpringBoot internals...", 4096) = 4096
-read(3, "Tomcat architecture...", 4096) = 4096
-read(3, "Database internals...", 4096) = 4096
-
-// Goal: Be stack-agnostic through fundamental understanding
-mmap(NULL, KNOWLEDGE_SIZE, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS) = 0x7f...
-```
----
-
-## `$ netstat -an | grep ESTABLISHED`
-
 <div align="left">
 
 ### **Connect With Me**
@@ -151,43 +118,14 @@ mmap(NULL, KNOWLEDGE_SIZE, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS) = 0x
 
 ---
 
-## `$ ps aux | grep "what_makes_me_different"`
-
-```diff
-+ I don't just use Java 21—I understand Virtual Threads, carrier threads, and pinning issues
-+ I don't just write SQL—I know how the query planner works and optimize for index scans
-+ I don't just use Spring Boot—I understand servlet containers, thread pools, and connection management
-+ I don't just deploy to K8s—I understand cgroups, namespaces, and container runtime internals
-+ I don't just use JDBC—I tune connection pools, batch operations, and prevent N+1 queries
-+ I don't just configure Redis—I understand its event loop and why single-threaded architecture scales
-```
-
-**The Difference:** Most engineers learn *what* tools do. I learn *how* they do it. This knowledge compounds when you understand memory allocation, CPU caches, and system calls, every framework makes sense. You're not locked into specific stacks, you can evaluate tradeoffs and pick the right tool for the job.
-
----
-
-## `$ tail -f /var/log/achievements.log`
-
-```log
-[2024-12-XX] INFO: Shipped GDPR compliance system → Enabled EU market entry
-[2024-12-XX] INFO: Generated 30-50 early trial bookings from European customers  
-[2024-XX-XX] INFO: Building Laminar-db → Understanding storage engines deeply
-[2024-XX-XX] INFO: Context switching from framework user → systems thinker
-[ONGOING]    INFO: Reading kernel source code, one subsystem at a time...
-```
-
----
-
 <div align="center">
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│  "The best programmers are not those who specialize in     │
-│   any one language, but those who can understand the       │
-│   machine and use any tool to express their intent."       │
-│                                                             │
-│                                         — Systems Thinking  │
+│  "The best programmers are not those who specialize in      │
+│   any one language, but those who can understand the        │
+│   machine and use any tool to get the work done."           │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -196,6 +134,6 @@ mmap(NULL, KNOWLEDGE_SIZE, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS) = 0x
 
 *"Understanding the kernel isn't just about writing fast code—it's about writing code that respects the machine."*
 
-**⚡ Let's build something that scales.**
+**Let's build something that truly scales.**
 
 </div>
